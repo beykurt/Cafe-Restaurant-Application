@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1024, 768]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="panel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="java.awt.Panel" name="panel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e2" green="e2" red="e2" type="rgb"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1024, 768]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="847" max="-2" attributes="0"/>
+                  <Component id="panelGarsonEkle" min="-2" pref="0" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="802" max="-2" attributes="0"/>
+                  <Component id="panelGarsonDuzenle" min="-2" pref="0" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="176" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="837" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                  <Component id="jButton_GarsonEkle" min="-2" pref="150" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  <Component id="jButton_GarsonDuzenle" min="-2" pref="150" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                  <Component id="jButton_GarsonSil" min="-2" pref="150" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="23" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="157" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="panelGarsonDuzenle" pref="0" max="32767" attributes="0"/>
+                              <Component id="panelGarsonEkle" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="538" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton_GarsonEkle" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="jButton_GarsonDuzenle" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="jButton_GarsonSil" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="java.awt.Panel" name="panelGarsonDuzenle">
+          <Properties>
+            <Property name="visible" type="boolean" value="false"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelGarsonEkle_GarsonYasi28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="labelGarsonEkle_GarsonYasi32" min="-2" pref="255" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="labelGarsonEkle_GarsonSoyadi2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonIkinciAd" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonAdi" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonSoyadi" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="labelGarsonEkle_GarsonIkinciAd1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonAdi2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField_GarsonDuzenle_GarsonSSN" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                                          <Component id="jTextField_GarsonDuzenle_GarsonDogumTarihi" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonUstSSN" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonBaslamaYili" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonMaas" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonDuzenle_GarsonCinsiyet" alignment="0" min="-2" pref="104" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="labelGarsonEkle_GarsonYasi26" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                      <Component id="jButton_GarsonDuzenle_Kaydet" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="labelGarsonEkle_GarsonAdi2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jTextField_GarsonDuzenle_GarsonAdi" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelGarsonEkle_GarsonYasi18" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelGarsonEkle_GarsonIkinciAd1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jTextField_GarsonDuzenle_GarsonIkinciAd" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField_GarsonDuzenle_GarsonSoyadi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelGarsonEkle_GarsonYasi19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelGarsonEkle_GarsonSoyadi2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelGarsonEkle_GarsonYasi20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField_GarsonDuzenle_GarsonDogumTarihi" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="labelGarsonEkle_GarsonYasi21" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="labelGarsonEkle_GarsonYasi23" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jTextField_GarsonDuzenle_GarsonSSN" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane3" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextField_GarsonDuzenle_GarsonCinsiyet" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="labelGarsonEkle_GarsonYasi26" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelGarsonEkle_GarsonYasi28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField_GarsonDuzenle_GarsonUstSSN" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jTextField_GarsonDuzenle_GarsonMaas" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi29" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi27" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField_GarsonDuzenle_GarsonBaslamaYili" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="labelGarsonEkle_GarsonYasi30" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelGarsonEkle_GarsonYasi32" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="labelGarsonEkle_GarsonYasi22" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton_GarsonDuzenle_Kaydet" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton_GarsonDuzenle_Kaydet">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kaydet"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_GarsonDuzenle_KaydetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonAdi2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ad&#x131; : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonAdi">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonIkinciAd">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonIkinciAd1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x130;kinci Ad : "/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonSoyadi">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonSoyadi2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Soyad&#x131; : "/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Do&#x11f;um Tarihi : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonDogumTarihi">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="*Format : yyyy-aa-gg"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonSSN">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SSN :"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea_GarsonDuzenle_GarsonAdres">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Adres : "/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cinsiyet : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonCinsiyet">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="*** M / F"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi27">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonUstSSN">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonMaas">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xdc;st&#xfc;n&#xfc;n SSN :"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi29">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Maa&#x15f; :"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi30">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ba&#x15f;lama Y&#x131;l&#x131; : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonDuzenle_GarsonBaslamaYili">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi31">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi32">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="9" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="*** ile i&#x15f;aretli alanlar&#x131; doldurmak zorunludur."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="java.awt.Panel" name="panelGarsonEkle">
+          <Properties>
+            <Property name="visible" type="boolean" value="false"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelGarsonEkle_GarsonYasi13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi14" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi15" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="labelGarsonEkle_GarsonYasi16" min="-2" pref="255" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="labelGarsonEkle_GarsonSoyadi" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jTextField_GarsonEkle_GarsonIkinciAd" pref="105" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonEkle_GarsonAdi" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonEkle_GarsonSoyadi" alignment="1" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="labelGarsonEkle_GarsonIkinciAd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonAdi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi11" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi10" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="192" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField_GarsonEkle_GarsonSSN" min="-2" pref="105" max="-2" attributes="0"/>
+                                          <Component id="jTextField_GarsonEkle_GarsonDogumTarihi" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi7" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi12" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi8" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane2" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jTextField_GarsonEkle_GarsonUstSSN" alignment="0" pref="104" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonEkle_BaslamaYili" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonEkle_Maas" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField_GarsonEkle_GarsonCinsiyet" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="labelGarsonEkle_GarsonYasi17" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                      <Component id="jButtonGarsonEkle_Ekle" min="-2" pref="75" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="labelGarsonEkle_GarsonAdi" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField_GarsonEkle_GarsonAdi" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelGarsonEkle_GarsonYasi10" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="labelGarsonEkle_GarsonIkinciAd" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jTextField_GarsonEkle_GarsonIkinciAd" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField_GarsonEkle_GarsonSoyadi" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelGarsonEkle_GarsonYasi11" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelGarsonEkle_GarsonSoyadi" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelGarsonEkle_GarsonYasi6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField_GarsonEkle_GarsonDogumTarihi" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="labelGarsonEkle_GarsonYasi7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="labelGarsonEkle_GarsonYasi" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jTextField_GarsonEkle_GarsonSSN" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi8" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane2" min="-2" pref="71" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="labelGarsonEkle_GarsonYasi9" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextField_GarsonEkle_GarsonCinsiyet" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="labelGarsonEkle_GarsonYasi17" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelGarsonEkle_GarsonYasi13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField_GarsonEkle_GarsonUstSSN" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jTextField_GarsonEkle_Maas" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi14" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField_GarsonEkle_BaslamaYili" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelGarsonEkle_GarsonYasi15" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="labelGarsonEkle_GarsonYasi2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelGarsonEkle_GarsonYasi16" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="labelGarsonEkle_GarsonYasi12" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButtonGarsonEkle_Ekle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonAdi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ad&#x131; : "/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonSoyadi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Soyad&#x131; : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonGarsonEkle_Ekle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ekle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonGarsonEkle_EkleActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SSN :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonAdi">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonSoyadi">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonSSN">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_Maas">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_BaslamaYili">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Maa&#x15f; :"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ba&#x15f;lama Y&#x131;l&#x131; : "/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Do&#x11f;um Tarihi : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonDogumTarihi">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="*Format : yyyy-aa-gg"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Adres : "/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea_GarsonEkle_GarsonAdres">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cinsiyet : "/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonUstSSN">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xdc;st&#xfc;n&#xfc;n SSN :"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="***"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="9" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="*** ile i&#x15f;aretli alanlar&#x131; doldurmak zorunludur."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonIkinciAd">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonIkinciAd">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x130;kinci Ad : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField_GarsonEkle_GarsonCinsiyet">
+            </Component>
+            <Component class="java.awt.Label" name="labelGarsonEkle_GarsonYasi17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="*** M / F"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monotype Corsiva" size="18" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Garsonlar"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable_Garsonlar">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable_GarsonlarMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton_GarsonEkle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Garson Ekle"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_GarsonEkleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_GarsonDuzenle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Garson D&#xfc;zenle"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_GarsonDuzenleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_GarsonSil">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Garson Sil"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_GarsonSilActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
